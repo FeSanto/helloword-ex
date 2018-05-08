@@ -18,3 +18,30 @@ ul{
 			li a:hover{
 				background-color: #4CAF50;
 			}
+
+h1, h2, h3{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.jornal{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+	-webkit-column-rule: 1px solid lightblue;
+	-moz-column-rule: 1px solid lightblue;
+	column-rule: 1px solid lightblue;
+}
+
+.jornal img{
+	box-shadow: 4px 4px 3px rgba(0,0,0,.8);
+}
