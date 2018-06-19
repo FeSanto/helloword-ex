@@ -1,32 +1,39 @@
-header.banner-home{
-	background:url("../img/bg.jpg") no-repeat center center;
-	padding-top:10%;
-	padding-bottom: 10%;
+p#cabecalho{
+	color: #ffffff;
+	font-size: 15px;
+	padding: 5px;
 }
 
-div.topo{
-	background-color: #36506B;
+header.banner-home{
+	position: relative;
+	background: url("../img/aulas.jpg") no-repeat center center;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+i{
+	color: #007bff;
+}
+
+i.icone{
+	font-size: 4rem;
+}
+
+i.rodape{
+	color: #c74335;
 }
 
 a{
-	color: #ffffff;
+	color: #c74335;
 }
 
 a:hover{
-	font-size: 18px;
-	color: #ffffff;
-}
-
-h2.rodape{
-	font-size: 18px;
-	color: #ffffff;
-}
-
-p.rodape{
-	font-size: 12px;
 	font-weight: bolder;
+	color: #c74335;
+	text-decoration: none;
 }
 
-div.rodape{
-	background-color: #36506B;
+a.rodape:hover{
+	color: #c74335;
+	text-decoration: none;
 }
